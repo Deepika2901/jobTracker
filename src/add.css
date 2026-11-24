@@ -1,0 +1,53 @@
+.add-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+.add-container div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    width: 40%;
+    border-radius: 15px;
+}
+h1{
+    font-size: 29px;
+    margin-bottom: 5px;
+}
+label{
+    margin-top: 15px;
+    font-size: 17px;
+}
+input,select{
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 10px;
+    border: 2px solid #E3E6EC;
+    font-size: 15px;
+}
+.add-container div section{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 30px;
+    gap:20px
+}
+.add-container div section button{
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.add-container div section button:first-child{
+    border: 2px solid #E3E6EC;
+    background-color: transparent;
+}
+.add-container div section button:last-child{
+    border: 2px solid teal;
+    background-color: teal;
+    color: white;
+}
